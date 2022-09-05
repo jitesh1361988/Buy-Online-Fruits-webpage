@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website design using html css</title>
+   
+<link rel="stylesheet" href="./Fruits  website landing page_files/style.css"></head>
+<body>
+  <header>
+    <nav>
+        <div class="logo">
+           <span>Fruits</span> &amp; veg    
+        </div>
+        <div class="menu">
+            <a href="http://127.0.0.1:5500/index.html">Home</a>
+            <a href="http://127.0.0.1:5500/index.html">About</a>
+            <a href="http://127.0.0.1:5500/index.html">Product</a>
+            <a href="http://127.0.0.1:5500/index.html">Contact</a>
+        </div>
+        <div>
+            <img src="./Fruits  website landing page_files/bell.png">
+            <img src="./Fruits  website landing page_files/user.png">
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left">
+            <label>
+              <img src="./Fruits  website landing page_files/search.png">
+              <input type="search" name="" placeholder="Search Here..">
+            </label>
+            <div class="line">
+                <div class="box1"></div><br>
+                <div class="box2"></div><br>
+                <div class="box3"></div><br>
+            </div>
+            <h2>Fresh &amp; Clean</h2>
+            <h1><span>Stra</span>berries</h1>
+            <p>We are providing best quality fruits and vegitables.</p>
+            <button>Order Now</button>
+            <div class="icon">
+                <img src="./Fruits  website landing page_files/instagram.png">
+                <img src="./Fruits  website landing page_files/twitter.png">
+                <img src="./Fruits  website landing page_files/pinterest.png">
+            </div>
+
+        </div>
+
+        <div class="right">
+            <img src="./Fruits  website landing page_files/straberry.png" alt="" class="src">
+        </div>
+    </div>
+  </header>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<iframe src="./Fruits  website landing page_files/globalstorage.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe></body></html>
